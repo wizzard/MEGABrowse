@@ -713,7 +713,7 @@ int main(int argc, char *argv[])
     sbar = gtk_statusbar_new();
     gtk_box_pack_start(GTK_BOX(vbox), sbar, FALSE, FALSE, 0);
 
-    app->api = mega_api_create("MEGABROWSER", (const char*)NULL, "MEGABrowser");
+    app->api = mega_api_create("lBMRXLiA", NULL, "MEGABROWSER");
     mega_api_set_loglevel(app->api, LOG_LEVEL_DEBUG);
 
     gtk_widget_show_all(app->window);
